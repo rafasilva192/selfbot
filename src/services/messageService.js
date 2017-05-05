@@ -6,4 +6,4 @@ class MessageService {
     }
 }
 
-module.exports = MessageService
+module.exports = new MessageService()

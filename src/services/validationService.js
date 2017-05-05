@@ -4,6 +4,10 @@ class ValidationService {
     isOwner(id) {
         return config.owner === id
     }
+
+    hasPrefix(msg) {
+        return msg && msg.length > 0 && config.prefix === msg.slice(0, 1)
+    }
 }
 
-module.exports = ValidationService
+module.exports = new ValidationService()
