@@ -1,0 +1,33 @@
+{
+  "name": "Gords_Selfbot",
+  "version": "0.0.1",
+  "description": "A selfbot created for discord. It is setup and ready to go in less than 5 min.",
+  "keywords": [
+    "discord",
+    "self",
+    "bot"
+  ],
+  "license": "MIT",
+  "main": "app.js",
+  "author": "Rafael Henrique da Silva",
+  "repository": {
+    "type": "git",
+    "url": "to be pushed"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "bugs": {
+    "url": "to be pushed"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "dependencies": {
+    "eris": "^0.6.0",
+    "moment": "^2.15.1"
+  },
+  "devDependencies": {
+    "chalk": "^1.1.3"
+  }
+}
